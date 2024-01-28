@@ -1,0 +1,52 @@
+@media (max-width: 1025px) {
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+    .header .nav-menu li a {
+        padding: 15px;
+    }
+    .overview .info {
+        padding: 30px;
+    }
+    .overview .info img {
+        max-width: 120px;
+    }
+    .overview .info .title {
+        font-size: 55px;
+    }
+    .buy-now .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .buy-now {
+        padding: 30px;
+    }
+    .buy-now .card {
+        padding: 80px 20px;
+        width: 100%;
+    }
+    .buy-now .info .title {
+        font-size: 35px;
+    }
+    .buy-now .info .platforms {
+        flex-direction: column;
+    }
+    .btn-platforms {
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .btn-buy {
+        width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    main::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+}
